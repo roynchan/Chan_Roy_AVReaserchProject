@@ -1,0 +1,131 @@
+*{ box-sizing:border-box;margin:0;padding:0%;}
+.hidden {
+  display: none;
+}
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #a58e74;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+  }  
+  nav {
+    margin-top: 20px;
+  }
+  
+  #logo {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  /* About Us section styling */
+#about-us {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+#about-us h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'EB Garamond', serif;
+}
+
+#about-us p {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'EB Garamond', serif;
+}
+  /* Video Thumbnail section styling */
+  .indexhead {
+    padding: 50px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+  }
+  #vidthumb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+
+  }
+.video {
+  margin-bottom: 20px;
+  border: 1px solid #d3d3d3;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.video h3 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.video p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #000;
+}
+
+.video img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+
+
+.video video {
+  width: 60%;
+}
+
+.twogrid {
+  font-family: 'EB Garamond', serif;
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    justify-content: center;
+}
+
+.download{background-color: #e09132;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;}
+
+.download:hover {
+  background-color: #3e8e41;
+}
